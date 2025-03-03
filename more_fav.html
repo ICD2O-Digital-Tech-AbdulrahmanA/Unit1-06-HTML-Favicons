@@ -19,11 +19,6 @@
     <title>My Second Web Page, with a Favicon</title>
   </head>
   <body>
-	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-  		<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
-  		<span class="mdl-checkbox__label">Checkbox</span>
-	</label>
-
 		<!-- To use Google's MDL -->
 		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 		
@@ -40,15 +35,50 @@
 	    <main class = "mdl-layout__content" style = "padding-left:20px">
 				
 		    <h3>See another favicon in the browser tab above.</h3>
-
+	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+  		<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+  		<span class="mdl-checkbox__label">Do you like my Favicon?</span>
+	</label>
 				<!-- My div tag with an id -->
 				<div id = "hello-world">This is an example of using &ltdiv&gt and how I escape the angle brackets in my code so I can write them to the screen:)</div>
 				<br>
 		    <p>
 		      Here is the link to my <a href="./index.html">first favicon</a> page.
 		    </p>
+			<!-- List items with avatar and action -->
+			<style>
+			.demo-list-action {
+			width: 300px;
+			}
+			</style>
+
+			<div class="demo-list-action mdl-list">
+			<div class="mdl-list__item">
+				<span class="mdl-list__item-primary-content">
+				<i class="material-icons mdl-list__item-avatar">person</i>
+				<span>LeBron James</span>
+				</span>
+				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a> <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a> <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+			</div>
+			<div class="mdl-list__item">
+				<span class="mdl-list__item-primary-content">
+				<i class="material-icons mdl-list__item-avatar">person</i>
+				<span>Luka Doncic</span>
+				</span>
+				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a> <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a> <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+			</div>
+			<div class="mdl-list__item">
+				<span class="mdl-list__item-primary-content">
+				<i class="material-icons mdl-list__item-avatar">person</i>
+				<span>Dalton Knecht</span>
+				</span>
+				<span class="mdl-list__item-secondary-content">
+				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a> <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a> <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+			</span>
+			</div>
+			</div>
 			</main>
 		</div>
-		
+	
   </body>
 </html>
